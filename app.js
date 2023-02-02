@@ -16,7 +16,7 @@ pdfDownload.addEventListener('click', () => {
 
 // Storage Function
 countDownloads = getCookies('downloads')
-getCookies('downloads') 
+getCookies('downloads')
 countDisplay.innerHTML = countDownloads
 
 // Delete Cookie usign 👉 deleteCookies('downloads')
